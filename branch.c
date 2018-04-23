@@ -43,10 +43,12 @@ extern iot_uint8_t startup_flag;
 #include "./build/branch/config_record.c"
 #include "./build/branch/config_remote.c"
 #include "./build/branch/config_protoc.c"
-#include "./build/branch/config_autosar.c"
-#include "./build/branch/config_arcorig.c"
 #include "./build/branch/config_arcfour.c"
 #include "132456"
+
+int sirun_msg_f1_rx(*input,int num, int size) {
+	return 0;
+}
 #if defined(CONFIG_DEBUG)
 //# pragma O3
 #endif
